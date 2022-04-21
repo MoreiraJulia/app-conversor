@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
 
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
@@ -24,7 +24,7 @@
             <label for="centimetros" class="rotulo">CENTÍMETROS</label>
             <input id="centimetros" class="campo-numero-2" disabled="disabled"></input>
             <br>
-            <button class="botao">CONVERTER</button>
+            <button class="botao" type="button" onclick="ConversorMetrosCentimetros()">CONVERTER</button>
         </form>
 
         <script src="../node_modules/jquery/dist/jquery.js"></script>
